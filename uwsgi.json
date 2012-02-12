@@ -1,0 +1,9 @@
+{
+	"uwsgi": {
+		"plugins": ["python"],
+		"buffer-size": 25000,
+		"module": "romero:application",
+		"socket": ":8080",
+		"protocol": "http"
+	}
+}
